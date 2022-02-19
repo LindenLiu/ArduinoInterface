@@ -30,3 +30,13 @@
 *.exe
 *.out
 *.app
+
+# platformio
+.pio
+
+# vscode
+.vscode
+
+# Files to trick platformio for better coding experience.
+src/main.cpp
+platformio.ini
