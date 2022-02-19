@@ -41,7 +41,6 @@ public:
   void referenceAnalog(uint8_t mode) override;
   void writeDigital(uint8_t pin, uint8_t val) override;
   int readDigital(uint8_t pin) override;
-  void turnOffThePWM(uint8_t timer) override;
 };
 
 ArduinoEsp32::ArduinoEsp32(/* args */)
@@ -81,9 +80,3 @@ int ArduinoEsp32::readDigital(uint8_t pin)
 {
   return digitalRead(pin);
 }
-
-void ArduinoEsp32::turnOffThePWM(uint8_t timer)
-{
-  assert("Not implemented yet");
-}
-

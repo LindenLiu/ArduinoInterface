@@ -36,6 +36,5 @@ public:
   virtual void referenceAnalog(uint8_t mode);
   virtual void writeDigital(uint8_t pin, uint8_t val);
   virtual int readDigital(uint8_t pin);
-  virtual void turnOffThePWM(uint8_t timer);
 };
 

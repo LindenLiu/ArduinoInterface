@@ -1,6 +1,6 @@
 {
   "name": "ArduinoInterface",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "An interface abstract out arduino apis to make the program more portable between different variation of Arduino compatible board like esp32 etc.",
   "keywords": "Arduino, Object, Abstraction",
   "repository":
